@@ -16,4 +16,8 @@ Dieses Projekt demonstriert die Entwicklung einer Python-Anwendung mit Hilfe von
 2. Installiere die Abhängigkeiten:
    ```bash
    pip install -r requirements.txt
-   
+   ```
+3. Starte die Anwendung:
+   ```bash
+   uvicorn app.main:app --reload
+   ```

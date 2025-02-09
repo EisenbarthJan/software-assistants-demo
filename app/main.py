@@ -1,7 +1,5 @@
 from fastapi import FastAPI
 # Missing required imports
-# from app.models import Item
-# from app.utils import calculate_discount
 
 app = FastAPI()
 
