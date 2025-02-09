@@ -1,21 +1,19 @@
 # Software Assistants Demo
 
-Dieses Projekt zeigt, wie Software-Assistenten die Qualität einer Python-Codebasis verbessern können.
+Dieses Projekt demonstriert die Entwicklung einer Python-Anwendung mit Hilfe von Software-Assistenten.
 
 ## Features
-- FastAPI zur Erstellung einer API
-- Tests mit pytest
-- Linter und Formatter (Pylint, Black, isort)
-- CI/CD mit GitHub Actions
-- Sicherheitsprüfung mit Trivy
-- OpenAPI-Spezifikation
+- FastAPI Backend
+- Python-basierte API
+- Docker-Support
 
 ## Anforderungen
 - Python 3.10 oder höher
 - Docker (optional)
 
 ## Installation
-1. Klone das Repository.
+1. Klone das Repository
 2. Installiere die Abhängigkeiten:
    ```bash
    pip install -r requirements.txt
+   

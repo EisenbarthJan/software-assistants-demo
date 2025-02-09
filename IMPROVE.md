@@ -9,6 +9,10 @@ Dieses Projekt demonstriert verschiedene Ebenen von Software-Assistenten, von ei
 ## Schritt 1:  Syntaxprüfung
 - Öffne das Projekt in CursorAI
 - Aktiviere Python Language Support (Python Extension)
+- Installiere die requirements
+  ```bash
+  pip install -r requirements.txt
+  ```
 - Identifiziere grundlegende Syntax-Fehler in:
   - app/utils.py (fehlende Klammern)
   - app/models.py (falsche Einrückung)
