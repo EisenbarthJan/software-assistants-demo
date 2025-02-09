@@ -1,5 +1,5 @@
 # Using an outdated base image with known vulnerabilities
-FROM python:3.8-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
