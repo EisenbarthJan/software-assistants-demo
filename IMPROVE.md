@@ -35,17 +35,7 @@ Weitere Schritte:
   ```
 - Behebe die gefundenen Style-Probleme
 
-## Schritt 3: Statische Code-Analyse (SonarCloud)
-**OPTIONAL, nur wenn genug Zeit ist!**
-- Forke dieses Repository
-- Verbinde es mit SonarCloud
-- Lasse das Projekt analysieren auf 
-  - Code Smells
-  - Security Hotspots
-  - Duplizierten Code
-  - Technische Schulden
-
-## Schritt 4: Container-Sicherheit (Trivy)
+## Schritt 3: Container-Sicherheit (Trivy)
 **OPTIONAL, nur wenn genug Zeit ist!**
 - Installiere Docker (z.B. Docker Desktop)
 - Baue das Docker Image:
@@ -60,7 +50,7 @@ Weitere Schritte:
   (Dieser Befehlt analysiert das eben gebaute Docker Image demo-app im fertigen trivy Docker Image aquasec/trivy:0.18.3, damit trivy nicht lokal installiert werden muss)
 - Behebe die Sicherheitslücken im Dockerfile
 
-## Schritt 5: KI-Assistenz (CursorAI)
+## Schritt 4: KI-Assistenz (CursorAI)
 ### Teil A: Auto-Complete
 - Vervollständige die TODO-Kommentare in:
   - app/utils.py
