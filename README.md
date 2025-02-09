@@ -16,4 +16,14 @@ Dieses Projekt demonstriert die Entwicklung einer Python-Anwendung mit Hilfe von
 2. Installiere die Abhängigkeiten:
    ```bash
    pip install -r requirements.txt
-   
+
+## Ausführen der Anwendung
+```bash
+uvicorn app.main:app --reload
+```
+## Öffnen der API-Dokumentation:
+```bash
+http://localhost:8000/docs
+```
+
+
