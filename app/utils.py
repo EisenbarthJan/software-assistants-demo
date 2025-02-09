@@ -16,7 +16,7 @@ def calculate_discount(price: float, discount: float) -> float:
     
     Args:
         price: Original price
-        discount: Discount percentage
+        discount: Discount as a decimal (e.g., 0.2 for 20% discount)
         
     Returns:
         float: Price after discount

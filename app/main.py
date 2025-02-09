@@ -25,15 +25,12 @@ async def calculate_price(item: Item):
         
     Returns:
         dict: Final price calculation
-        
-    Raises:
-        HTTPException: If price validation fails
     """
-    if not validate_price(item.price):
-        raise HTTPException(status_code=400, detail="Invalid price")
-    
-    final_price = calculate_discount(item.price, item.discount)
-    return {"item_name": item.name, "final_price": final_price}
+    try:
+        final_price = calculate_discount(item.price, item.discount)
+        return {"item_name": item.name, "final_price": final_price}
+    except ValueError as e:
+        return {"error": str(e), "status": "failed"}
 
 # TODO: Implement error handling
 # TODO: Add input validation
